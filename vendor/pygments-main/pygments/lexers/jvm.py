@@ -1138,7 +1138,7 @@ class PigLexer(RegexLexer):
             (r'([a-zA-Z_][a-zA-Z0-9_]*)(\s*)(\()',
              bygroups(Name.Function, Text, Punctuation)),
             (r'[()#:]', Text),
-            (r'[^(:\n#\'\")]+', Text),
+            (r'[^(:\n#\'\")\s]+', Text),
             (r'\S+\s+', Text)
         ],
         'keywords': [
