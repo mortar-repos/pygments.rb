@@ -1,10 +1,10 @@
 require File.expand_path('../lib/pygments/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = 'pygments.rb'
+  s.name = 'mortar-pygments.rb'
   s.version = Pygments::VERSION
 
-  s.summary = 'pygments wrapper for ruby'
+  s.summary = 'pygments wrapper for ruby including Pig lexer'
   s.description = 'pygments.rb exposes the pygments syntax highlighter to Ruby'
 
   s.homepage = 'https://github.com/tmm1/pygments.rb'
